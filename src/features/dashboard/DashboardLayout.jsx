@@ -31,7 +31,7 @@ function DashboardLayout() {
         bookings={bookings}
         confirmedStays={confirmedStays}
         numDays={numDays}
-        cabinCount={cabins.length}
+        cabinsCount={cabins.length}
       />
       <TodayActivity />
       <DurationChart confirmedStays={confirmedStays} />
